@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Container, Section, SectionHeading } from "@/components/ui/primitives";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { Team, TrustStrip } from "@/components/home/team";
 import { FinalCta } from "@/components/home/final-cta";
 import { getTeam } from "@/lib/api";
+import { aboutImage } from "@/lib/images";
 import { site, processSteps, principles } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -25,6 +27,18 @@ export default async function AboutPage() {
             title="We started this because good advice was being sold as a package"
             description="Counsel & Guide was founded in 2012 by Dr. Ananya Rao after a decade of watching capable students make life-changing decisions on advice that was either too late, too expensive, or too casual."
           />
+        </Container>
+        <Container className="mt-12">
+          <Reveal className="overflow-hidden rounded-2xl border border-line shadow-soft">
+            <Image
+              src={aboutImage}
+              alt="Inside the Counsel & Guide counselling studio — desks, diplomas and a city window"
+              width={1400}
+              height={560}
+              sizes="(max-width: 1280px) 100vw, 1280px"
+              className="h-auto w-full"
+            />
+          </Reveal>
         </Container>
       </Section>
 

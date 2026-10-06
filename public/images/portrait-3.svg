@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101a2b"/>
+      <stop offset="0.6" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#070c16"/>
+    </linearGradient>
+    <radialGradient id="goldGlow">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.48"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow">
+      <stop offset="0" stop-color="#4ba09b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#4ba09b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <ellipse cx="620" cy="160" rx="350" ry="270" fill="url(#goldGlow)"/>
+  <ellipse cx="200" cy="480" rx="330" ry="250" fill="url(#tealGlow)"/>
+
+  <g opacity="0.5" stroke="#2f7f7a" stroke-width="3" fill="none">
+    <path d="M60 120h140M60 160h90"/>
+    <path d="M600 500h140M650 540h90"/>
+  </g>
+
+  <path d="M126 600c14-124 116-180 274-180s260 56 274 180z" fill="#1c4b49"/>
+  <path d="M126 600c14-124 116-180 274-180 16 0 32 2 47 5-102 16-176 66-192 175z" fill="#246461"/>
+  <path d="M346 436l54 66 54-66" stroke="#e4c887" stroke-width="13" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="366" y="352" width="68" height="104" rx="32" fill="#e9dfd0"/>
+  <path d="M508 300c34 44 40 106 22 166l-52-16c14-52 8-100-18-138z" fill="#131c2e"/>
+  <circle cx="400" cy="290" r="106" fill="#131c2e"/>
+  <circle cx="400" cy="310" r="92" fill="#f3ede3"/>
+  <path d="M308 298a92 92 0 0 1 184 0c-10-48-44-70-92-70s-82 22-92 70z" fill="#131c2e"/>
+  <path d="M312 302c-10 40-4 78 12 106-30-22-44-66-38-110z" fill="#131c2e"/>
+
+  <circle cx="364" cy="310" r="9" fill="#131c2e"/>
+  <circle cx="436" cy="310" r="9" fill="#131c2e"/>
+  <circle cx="367" cy="307" r="3" fill="#fdfbf7"/>
+  <circle cx="439" cy="307" r="3" fill="#fdfbf7"/>
+  <path d="M348 288q16-10 32-2M420 286q16-8 32 2" stroke="#131c2e" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M376 348q24 18 48 0" stroke="#131c2e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+
+  <g stroke="#c9a24b" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <path d="M680 200v24M668 212h24"/>
+    <path d="M130 300v20M120 310h20"/>
+  </g>
+</svg>

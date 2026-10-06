@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131c2e"/>
+      <stop offset="0.55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#070c16"/>
+    </linearGradient>
+    <radialGradient id="goldGlow">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow">
+      <stop offset="0" stop-color="#2f7f7a" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2f7f7a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="3" fill="#4a5a76" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="320" fill="url(#bg)"/>
+  <ellipse cx="160" cy="70" rx="330" ry="230" fill="url(#goldGlow)"/>
+  <ellipse cx="820" cy="270" rx="330" ry="220" fill="url(#tealGlow)"/>
+  <rect width="960" height="320" fill="url(#dots)"/>
+  <rect x="16" y="16" width="928" height="288" rx="20" fill="none" stroke="#c9a24b" stroke-opacity="0.22" stroke-width="3"/>
+
+  <path d="M90 250 Q 180 250 230 210 Q 290 162 380 170 Q 470 178 520 130 Q 580 76 680 96 Q 780 116 870 70"
+        fill="none" stroke="#c9a24b" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 16"/>
+
+  <g fill="#0b1220" stroke="#c9a24b" stroke-width="6">
+    <circle cx="230" cy="210" r="15"/>
+    <circle cx="380" cy="170" r="15"/>
+    <circle cx="520" cy="130" r="15"/>
+    <circle cx="680" cy="96" r="15"/>
+  </g>
+  <g fill="#e4c887">
+    <circle cx="230" cy="210" r="5"/>
+    <circle cx="380" cy="170" r="5"/>
+    <circle cx="520" cy="130" r="5"/>
+    <circle cx="680" cy="96" r="5"/>
+  </g>
+
+  <circle cx="90" cy="250" r="17" fill="#1d2941" stroke="#7fc2be" stroke-width="5"/>
+  <circle cx="90" cy="250" r="6" fill="#7fc2be"/>
+
+  <circle cx="870" cy="70" r="30" fill="#2f7f7a" stroke="#7fc2be" stroke-width="5"/>
+  <path d="M856 70l10 10 20-24" fill="none" stroke="#fdfbf7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g stroke="#e4c887" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M300 74v22M289 85h22"/>
+    <path d="M740 236v20M730 246h20"/>
+    <path d="M160 176v18M151 185h18"/>
+  </g>
+</svg>

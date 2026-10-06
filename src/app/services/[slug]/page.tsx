@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, Check, Clock, IndianRupee } from "lucide-react";
@@ -7,6 +8,7 @@ import { Container, Section, SectionHeading, Badge } from "@/components/ui/primi
 import { Reveal } from "@/components/ui/reveal";
 import { QuickEnquiryButton } from "@/components/enquiry/quick-enquiry-button";
 import { getService, getServices } from "@/lib/api";
+import { serviceImage } from "@/lib/images";
 import { fallbackServices, site } from "@/lib/site";
 
 export async function generateStaticParams() {
@@ -65,6 +67,20 @@ export default async function ServiceDetailPage({ params }: { params: Promise<{ 
               </span>
             ) : null}
           </div>
+        </Container>
+
+        <Container className="mt-10">
+          <Reveal className="overflow-hidden rounded-2xl border border-line shadow-soft">
+            <div className="relative aspect-3/1 bg-ink">
+              <Image
+                src={serviceImage(slug)}
+                alt={`${service.name} illustration`}
+                fill
+                sizes="(max-width: 1280px) 100vw, 1280px"
+                className="object-cover"
+              />
+            </div>
+          </Reveal>
         </Container>
       </Section>
 

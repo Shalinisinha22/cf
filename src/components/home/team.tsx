@@ -1,8 +1,10 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, GraduationCap, Building2, HandCoins } from "lucide-react";
 import { Container, Section, SectionHeading, Badge } from "@/components/ui/primitives";
 import { Reveal, RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { QuickEnquiryButton } from "@/components/enquiry/quick-enquiry-button";
+import { teamPortrait } from "@/lib/images";
 import { initials } from "@/lib/utils";
 import type { TeamMember } from "@/lib/api";
 
@@ -28,19 +30,17 @@ export function Team({ team }: { team: TeamMember[] }) {
         </div>
 
         <RevealGroup className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {team.slice(0, 3).map((member) => (
+          {team.slice(0, 3).map((member, index) => (
             <RevealItem key={member.id}>
               <article className="group flex h-full flex-col overflow-hidden rounded-xl border border-line bg-bg-elevated transition-all duration-500 hover:-translate-y-1 hover:shadow-lift">
-                <div className="relative aspect-4/3 overflow-hidden bg-linear-to-br from-ink-700 to-ink-900">
-                  <div
-                    className="absolute inset-0 opacity-80"
-                    style={{ background: "radial-gradient(90% 80% at 25% 15%, color-mix(in oklab, var(--gold-500) 30%, transparent), transparent 60%)" }}
-                    aria-hidden
+                <div className="relative aspect-4/3 overflow-hidden bg-ink-900">
+                  <Image
+                    src={teamPortrait(index)}
+                    alt={`Portrait illustration of ${member.name}`}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
                   />
-                  <svg className="absolute inset-0 size-full text-ivory-100/85" viewBox="0 0 400 300" fill="none" aria-hidden>
-                    <circle cx="200" cy="112" r="48" fill="currentColor" opacity="0.9" />
-                    <path d="M112 300c0-46 40-76 88-76s88 30 88 76H112Z" fill="currentColor" opacity="0.9" />
-                  </svg>
                   <span className="absolute top-4 left-4">
                     <Badge tone="gold" className="bg-ink-950/70 backdrop-blur-sm">
                       {member.yearsExperience ? `${member.yearsExperience} yrs` : "Expert"}

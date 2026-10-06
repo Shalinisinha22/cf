@@ -1,11 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, CalendarClock, ShieldCheck, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/primitives";
 import { useQuickEnquiry } from "@/components/enquiry/quick-enquiry-context";
+import { heroImage } from "@/lib/images";
 import { site } from "@/lib/site";
 
 const PROOF = [
@@ -122,21 +124,15 @@ export function Hero() {
             className="relative"
           >
             <div className="relative overflow-hidden rounded-xl border border-line bg-bg-elevated shadow-lift">
-              <div className="relative aspect-4/5 w-full overflow-hidden bg-linear-to-br from-ink-800 via-ink-700 to-ink-900">
-                {/* Abstract portrait: layered gradients + gold ring, no stock photo needed */}
-                <div
-                  className="absolute inset-0"
-                  style={{
-                    background:
-                      "radial-gradient(120% 90% at 30% 20%, color-mix(in oklab, var(--gold-500) 34%, transparent), transparent 60%), radial-gradient(90% 70% at 80% 80%, color-mix(in oklab, var(--teal-500) 40%, transparent), transparent 65%)",
-                  }}
-                  aria-hidden
+              <div className="relative aspect-4/5 w-full overflow-hidden bg-ink-900">
+                <Image
+                  src={heroImage}
+                  alt="A counsellor and a student working through a career roadmap together"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 44vw"
+                  className="object-cover"
                 />
-                <svg className="absolute inset-0 size-full text-ivory-100/85" viewBox="0 0 400 500" fill="none" aria-hidden>
-                  <circle cx="200" cy="168" r="66" fill="currentColor" opacity="0.9" />
-                  <path d="M96 470c0-62 46-104 104-104s104 42 104 104H96Z" fill="currentColor" opacity="0.9" />
-                </svg>
-                <div className="absolute inset-0 bg-linear-to-t from-ink-950/85 via-transparent to-transparent" aria-hidden />
+                <div className="absolute inset-0 bg-linear-to-t from-ink-950/90 via-ink-950/10 to-transparent" aria-hidden />
                 <div className="absolute inset-x-0 bottom-0 p-6">
                   <p className="font-display text-xl text-ivory-50">Dr. Ananya Rao</p>
                   <p className="mt-1 text-sm text-ivory-200/85">Founder &amp; Lead Career Counsellor · 15 yrs</p>

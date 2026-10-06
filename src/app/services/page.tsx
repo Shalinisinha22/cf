@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Check } from "lucide-react";
 import { Container, Section, SectionHeading, Badge } from "@/components/ui/primitives";
@@ -6,6 +7,7 @@ import { RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { Button } from "@/components/ui/button";
 import { QuickEnquiryButton } from "@/components/enquiry/quick-enquiry-button";
 import { getServices } from "@/lib/api";
+import { serviceImage } from "@/lib/images";
 import { fallbackServices } from "@/lib/site";
 import type { Service } from "@/lib/api";
 
@@ -44,7 +46,16 @@ export default async function ServicesPage() {
             <RevealItem key={service.id}>
               <article className="group grid gap-6 rounded-xl border border-line bg-bg-elevated p-7 transition-all duration-500 hover:border-gold-500/40 hover:shadow-lift sm:p-9 lg:grid-cols-[1.2fr_0.8fr] lg:gap-12">
                 <div>
-                  <div className="flex flex-wrap items-center gap-3">
+                  <div className="relative aspect-3/1 overflow-hidden rounded-lg border border-line bg-ink">
+                    <Image
+                      src={serviceImage(service.slug)}
+                      alt={`${service.name} illustration`}
+                      fill
+                      sizes="(max-width: 1024px) 100vw, 60vw"
+                      className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                    />
+                  </div>
+                  <div className="mt-6 flex flex-wrap items-center gap-3">
                     <h2 className="text-2xl leading-snug sm:text-3xl">
                       <Link href={`/services/${service.slug}`} className="transition-colors hover:text-gold-700 dark:hover:text-gold-300">
                         {service.name}

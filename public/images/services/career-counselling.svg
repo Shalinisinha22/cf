@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" width="960" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#131c2e"/>
+      <stop offset="0.55" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#070c16"/>
+    </linearGradient>
+    <radialGradient id="goldGlow">
+      <stop offset="0" stop-color="#c9a24b" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#c9a24b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="tealGlow">
+      <stop offset="0" stop-color="#2f7f7a" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#2f7f7a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="960" height="320" fill="url(#bg)"/>
+  <ellipse cx="210" cy="90" rx="330" ry="230" fill="url(#goldGlow)"/>
+  <ellipse cx="820" cy="270" rx="320" ry="210" fill="url(#tealGlow)"/>
+  <rect x="16" y="16" width="928" height="288" rx="20" fill="none" stroke="#c9a24b" stroke-opacity="0.22" stroke-width="3"/>
+
+  <g stroke="#e4c887" stroke-width="6" stroke-linecap="round">
+    <path d="M220 50v16M220 254v16M114 160h16M310 160h16"/>
+    <path d="M296 84l-11 11M144 236l11-11M296 236l-11-11M144 84l11 11"/>
+  </g>
+  <circle cx="220" cy="160" r="110" fill="#070c16" stroke="#c9a24b" stroke-width="7"/>
+  <circle cx="220" cy="160" r="92" fill="none" stroke="#2f7f7a" stroke-opacity="0.5" stroke-width="3" stroke-dasharray="5 13"/>
+  <path d="M220 76 L248 160 L220 146 L192 160 Z" fill="#e4c887"/>
+  <path d="M220 244 L192 160 L220 174 L248 160 Z" fill="#2f7f7a"/>
+  <circle cx="220" cy="160" r="13" fill="#fdfbf7"/>
+
+  <path d="M400 246 L540 210 L640 150 L762 132 L872 76" fill="none" stroke="#e4c887" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 16"/>
+  <g fill="#0b1220" stroke="#c9a24b" stroke-width="6">
+    <circle cx="400" cy="246" r="15"/>
+    <circle cx="540" cy="210" r="15"/>
+    <circle cx="640" cy="150" r="15"/>
+    <circle cx="762" cy="132" r="15"/>
+  </g>
+  <path d="M872 76V32" stroke="#c7cfdc" stroke-width="7" stroke-linecap="round"/>
+  <path d="M876 36h48l-14 16 14 16h-48z" fill="#c9a24b"/>
+  <circle cx="872" cy="76" r="16" fill="#2f7f7a" stroke="#7fc2be" stroke-width="5"/>
+
+  <g stroke="#e4c887" stroke-width="4" stroke-linecap="round" opacity="0.7">
+    <path d="M470 66v22M459 77h22"/>
+    <path d="M700 264v20M690 274h20"/>
+  </g>
+</svg>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Container, Section, SectionHeading } from "@/components/ui/primitives";
@@ -5,6 +6,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/ui/reveal";
 import { Badge } from "@/components/ui/primitives";
 import { QuickEnquiryButton } from "@/components/enquiry/quick-enquiry-button";
 import type { Service } from "@/lib/api";
+import { serviceImage } from "@/lib/images";
 import { fallbackServices } from "@/lib/site";
 
 export function ServicesGrid({ services }: { services: Service[] }) {
@@ -33,11 +35,20 @@ export function ServicesGrid({ services }: { services: Service[] }) {
           {services_.map((service, index) => (
             <RevealItem key={service.id ?? service.slug}>
               <article className="group relative flex h-full flex-col overflow-hidden rounded-xl border border-line bg-bg-elevated p-7 transition-all duration-500 hover:-translate-y-1 hover:border-gold-500/40 hover:shadow-lift sm:p-8">
+                <div className="relative -mx-7 -mt-7 aspect-3/1 overflow-hidden border-b border-line bg-ink sm:-mx-8 sm:-mt-8">
+                  <Image
+                    src={serviceImage(service.slug)}
+                    alt={`${service.name} illustration`}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                    className="object-cover transition-transform duration-700 group-hover:scale-[1.04]"
+                  />
+                </div>
                 <div
                   className="pointer-events-none absolute -top-20 -right-16 size-52 rounded-full bg-gold-500/10 opacity-0 blur-3xl transition-opacity duration-700 group-hover:opacity-100"
                   aria-hidden
                 />
-                <div className="flex items-start justify-between gap-4">
+                <div className="mt-7 flex items-start justify-between gap-4">
                   <span className="font-display text-sm text-fg-muted/70">{String(index + 1).padStart(2, "0")}</span>
                   <Badge tone="gold">{service.durationMins ? `${service.durationMins} min` : "Flexible"}</Badge>
                 </div>
