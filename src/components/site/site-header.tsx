@@ -26,10 +26,12 @@ export function SiteHeader() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  React.useEffect(() => {
+  const [lastPathname, setLastPathname] = React.useState(pathname);
+  if (lastPathname !== pathname) {
+    setLastPathname(pathname);
     setMenuOpen(false);
     setServicesOpen(false);
-  }, [pathname]);
+  }
 
   const serviceLinks = [
     { label: "Career counselling", href: "/services/career-counselling" },
