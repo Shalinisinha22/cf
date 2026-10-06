@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="National Law School of India University">
+  <defs>
+    <linearGradient id="g1ba7qxg" gradientTransform="rotate(34 0.5 0.5)">
+      <stop offset="0%" stop-color="#0F2C3F"/>
+      <stop offset="100%" stop-color="#5A8CA8"/>
+    </linearGradient>
+    <radialGradient id="vg1ba7qxg" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <pattern id="pg1ba7qxg" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g1ba7qxg)"/>
+  <rect width="1200" height="800" fill="url(#pg1ba7qxg)"/>
+  <g><rect x="0" y="692" width="28" height="108" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="42" y="661" width="4" height="139" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="60" y="646" width="37" height="154" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="74" y="672" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="74" y="718" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="111" y="638" width="8" height="162" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="133" y="634" width="39" height="166" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="147" y="660" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="147" y="706" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="147" y="752" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="186" y="632" width="54" height="168" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="200" y="658" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="200" y="704" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="200" y="750" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="254" y="761" width="62" height="39" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="330" y="696" width="66" height="104" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="344" y="722" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="410" y="793" width="68" height="7" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="492" y="862" width="69" height="-62" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="575" y="876" width="24" height="-76" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="613" y="753" width="47" height="47" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="674" y="692" width="28" height="108" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="716" y="661" width="4" height="139" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="734" y="646" width="37" height="154" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="748" y="672" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="748" y="718" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="785" y="638" width="8" height="162" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="807" y="634" width="39" height="166" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="821" y="660" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="821" y="706" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="821" y="752" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="860" y="632" width="54" height="168" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="874" y="658" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="874" y="704" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="874" y="750" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="928" y="761" width="62" height="39" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1004" y="696" width="66" height="104" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1018" y="722" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1084" y="793" width="68" height="7" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1166" y="862" width="69" height="-62" rx="4" fill="#FFFFFF" opacity="0.16"/><path d="M574 250 L600 96 L626 250 Z" fill="#FFFFFF" opacity="0.16"/><path d="M0 800 Q336.00000000000006 650 696 800" stroke="#FFFFFF" stroke-width="3" opacity="0.12" fill="none"/></g>
+  <rect width="1200" height="800" fill="url(#vg1ba7qxg)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="64" y="668" font-size="128" opacity="0.20" font-weight="700">NL</text>
+    <text x="64" y="726" font-size="27" font-weight="600" opacity="0.92">National Law School of India University</text>
+    <text x="64" y="758" font-size="21" opacity="0.72">Bengaluru</text>
+  </g>
+</svg>

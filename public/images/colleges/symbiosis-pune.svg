@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Symbiosis International University">
+  <defs>
+    <linearGradient id="g1y7m1bw" gradientTransform="rotate(68 0.5 0.5)">
+      <stop offset="0%" stop-color="#1F2937"/>
+      <stop offset="100%" stop-color="#4B7B6B"/>
+    </linearGradient>
+    <radialGradient id="vg1y7m1bw" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <pattern id="pg1y7m1bw" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g1y7m1bw)"/>
+  <rect width="1200" height="800" fill="url(#pg1y7m1bw)"/>
+  <g><rect x="0" y="859" width="62" height="-59" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="76" y="875" width="66" height="-75" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="156" y="753" width="23" height="47" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="193" y="822" width="1" height="-22" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="208" y="856" width="35" height="-56" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="257" y="743" width="7" height="57" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="278" y="687" width="38" height="113" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="292" y="713" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="292" y="759" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="330" y="659" width="54" height="141" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="344" y="685" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="344" y="731" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="398" y="645" width="17" height="155" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="429" y="638" width="43" height="162" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="443" y="664" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="443" y="710" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="443" y="756" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="486" y="764" width="11" height="36" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="511" y="827" width="-5" height="-27" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="520" y="859" width="62" height="-59" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="596" y="875" width="66" height="-75" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="676" y="753" width="23" height="47" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="713" y="822" width="1" height="-22" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="728" y="856" width="35" height="-56" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="777" y="743" width="7" height="57" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="798" y="687" width="38" height="113" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="812" y="713" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="812" y="759" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="850" y="659" width="54" height="141" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="864" y="685" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="864" y="731" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="918" y="645" width="17" height="155" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="949" y="638" width="43" height="162" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="963" y="664" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="963" y="710" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="963" y="756" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1006" y="764" width="11" height="36" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1031" y="827" width="-5" height="-27" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1040" y="859" width="62" height="-59" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1116" y="875" width="66" height="-75" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1196" y="753" width="23" height="47" rx="4" fill="#FFFFFF" opacity="0.16"/><path d="M574 250 L600 96 L626 250 Z" fill="#FFFFFF" opacity="0.16"/><path d="M0 800 Q336.00000000000006 650 696 800" stroke="#FFFFFF" stroke-width="3" opacity="0.12" fill="none"/></g>
+  <rect width="1200" height="800" fill="url(#vg1y7m1bw)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="64" y="668" font-size="128" opacity="0.20" font-weight="700">SI</text>
+    <text x="64" y="726" font-size="27" font-weight="600" opacity="0.92">Symbiosis International University</text>
+    <text x="64" y="758" font-size="21" opacity="0.72">Pune</text>
+  </g>
+</svg>

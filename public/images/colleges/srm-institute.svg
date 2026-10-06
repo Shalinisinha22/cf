@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="SRM Institute of Science and Technology">
+  <defs>
+    <linearGradient id="g1psl3wd" gradientTransform="rotate(13 0.5 0.5)">
+      <stop offset="0%" stop-color="#123B4A"/>
+      <stop offset="100%" stop-color="#C9A24B"/>
+    </linearGradient>
+    <radialGradient id="vg1psl3wd" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <pattern id="pg1psl3wd" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g1psl3wd)"/>
+  <rect width="1200" height="800" fill="url(#pg1psl3wd)"/>
+  <g><rect x="0" y="771" width="7" height="29" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="21" y="831" width="38" height="-31" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="73" y="731" width="9" height="69" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="96" y="811" width="39" height="-11" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="149" y="721" width="9" height="79" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="172" y="676" width="39" height="124" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="186" y="702" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="186" y="748" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="225" y="783" width="9" height="17" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="248" y="837" width="39" height="-37" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="301" y="864" width="54" height="-64" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="369" y="713" width="17" height="87" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="400" y="672" width="43" height="128" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="414" y="698" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="414" y="744" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="457" y="651" width="56" height="149" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="471" y="677" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="471" y="723" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="527" y="771" width="7" height="29" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="548" y="831" width="38" height="-31" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="600" y="731" width="9" height="69" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="623" y="811" width="39" height="-11" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="676" y="721" width="9" height="79" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="699" y="676" width="39" height="124" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="713" y="702" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="713" y="748" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="752" y="783" width="9" height="17" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="775" y="837" width="39" height="-37" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="828" y="864" width="54" height="-64" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="896" y="713" width="17" height="87" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="927" y="672" width="43" height="128" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="941" y="698" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="941" y="744" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="984" y="651" width="56" height="149" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="998" y="677" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="998" y="723" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1054" y="771" width="7" height="29" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1075" y="831" width="38" height="-31" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1127" y="731" width="9" height="69" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1150" y="811" width="39" height="-11" rx="4" fill="#FFFFFF" opacity="0.16"/><path d="M450 300 Q600 120 750 300" fill="#FFFFFF" opacity="0.16" stroke="#FFFFFF" stroke-width="26" fill="none"/></g>
+  <rect width="1200" height="800" fill="url(#vg1psl3wd)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="64" y="668" font-size="128" opacity="0.20" font-weight="700">SI</text>
+    <text x="64" y="726" font-size="27" font-weight="600" opacity="0.92">SRM Institute of Science and Technology</text>
+    <text x="64" y="758" font-size="21" opacity="0.72">Chennai</text>
+  </g>
+</svg>

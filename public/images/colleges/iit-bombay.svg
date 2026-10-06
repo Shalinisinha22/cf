@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Indian Institute of Technology Bombay">
+  <defs>
+    <linearGradient id="g1m7gx2i" gradientTransform="rotate(54 0.5 0.5)">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#2F7F7A"/>
+    </linearGradient>
+    <radialGradient id="vg1m7gx2i" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <pattern id="pg1m7gx2i" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g1m7gx2i)"/>
+  <rect width="1200" height="800" fill="url(#pg1m7gx2i)"/>
+  <g><rect x="0" y="633" width="48" height="167" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="14" y="659" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="14" y="705" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="14" y="751" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="62" y="632" width="59" height="168" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="76" y="658" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="76" y="704" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="76" y="750" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="135" y="631" width="64" height="169" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="149" y="657" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="149" y="703" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="149" y="749" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="213" y="761" width="67" height="39" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="294" y="826" width="68" height="-26" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="376" y="728" width="69" height="72" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="390" y="754" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="424" y="754" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="459" y="809" width="69" height="-9" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="542" y="720" width="24" height="80" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="580" y="675" width="2" height="125" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="596" y="652" width="-9" height="148" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="601" y="641" width="30" height="159" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="645" y="636" width="5" height="164" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="664" y="633" width="48" height="167" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="678" y="659" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="678" y="705" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="678" y="751" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="726" y="632" width="59" height="168" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="740" y="658" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="740" y="704" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="740" y="750" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="799" y="631" width="64" height="169" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="813" y="657" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="813" y="703" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="813" y="749" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="877" y="761" width="67" height="39" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="958" y="826" width="68" height="-26" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1040" y="728" width="69" height="72" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1054" y="754" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1088" y="754" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1123" y="809" width="69" height="-9" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="584" y="150" width="32" height="200" rx="16" fill="#FFFFFF" opacity="0.16"/><circle cx="600" cy="140" r="40" fill="#FFFFFF" opacity="0.16"/><path d="M0 800 Q336.00000000000006 650 696 800" stroke="#FFFFFF" stroke-width="3" opacity="0.12" fill="none"/></g>
+  <rect width="1200" height="800" fill="url(#vg1m7gx2i)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="64" y="668" font-size="128" opacity="0.20" font-weight="700">II</text>
+    <text x="64" y="726" font-size="27" font-weight="600" opacity="0.92">Indian Institute of Technology Bombay</text>
+    <text x="64" y="758" font-size="21" opacity="0.72">Mumbai</text>
+  </g>
+</svg>
