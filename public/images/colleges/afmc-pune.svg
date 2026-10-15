@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Armed Forces Medical College">
+  <defs>
+    <linearGradient id="g1b4wbgr" gradientTransform="rotate(27 0.5 0.5)">
+      <stop offset="0%" stop-color="#26303F"/>
+      <stop offset="100%" stop-color="#8C6B3F"/>
+    </linearGradient>
+    <radialGradient id="vg1b4wbgr" cx="50%" cy="38%" r="72%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.28"/>
+    </radialGradient>
+    <pattern id="pg1b4wbgr" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="26" stroke="#FFFFFF" stroke-width="1" opacity="0.07"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g1b4wbgr)"/>
+  <rect width="1200" height="800" fill="url(#pg1b4wbgr)"/>
+  <g><rect x="0" y="669" width="21" height="131" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="35" y="650" width="45" height="150" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="49" y="676" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="49" y="722" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="94" y="770" width="12" height="30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="120" y="830" width="41" height="-30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="175" y="730" width="10" height="70" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="199" y="680" width="40" height="120" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="213" y="706" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="213" y="752" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="253" y="785" width="10" height="15" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="277" y="838" width="40" height="-38" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="331" y="734" width="10" height="66" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="355" y="679" width="-5" height="121" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="364" y="785" width="32" height="15" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="410" y="708" width="6" height="92" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="430" y="669" width="21" height="131" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="465" y="650" width="45" height="150" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="479" y="676" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="479" y="722" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="524" y="770" width="12" height="30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="550" y="830" width="41" height="-30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="605" y="730" width="10" height="70" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="629" y="680" width="40" height="120" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="643" y="706" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="643" y="752" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="683" y="785" width="10" height="15" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="707" y="838" width="40" height="-38" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="761" y="734" width="10" height="66" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="785" y="679" width="-5" height="121" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="794" y="785" width="32" height="15" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="840" y="708" width="6" height="92" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="860" y="669" width="21" height="131" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="895" y="650" width="45" height="150" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="909" y="676" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="909" y="722" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="954" y="770" width="12" height="30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="980" y="830" width="41" height="-30" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1035" y="730" width="10" height="70" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1059" y="680" width="40" height="120" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1073" y="706" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1073" y="752" width="12" height="20" fill="#FFFFFF" opacity="0.272"/><rect x="1113" y="785" width="10" height="15" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1137" y="838" width="40" height="-38" rx="4" fill="#FFFFFF" opacity="0.16"/><rect x="1191" y="734" width="10" height="66" rx="4" fill="#FFFFFF" opacity="0.16"/><path d="M480 330 L600 150 L720 330 Z" fill="#FFFFFF" opacity="0.16"/><rect x="540" y="200" width="120" height="18" fill="#FFFFFF" opacity="0.16"/><path d="M0 800 Q336.00000000000006 650 696 800" stroke="#FFFFFF" stroke-width="3" opacity="0.12" fill="none"/></g>
+  <rect width="1200" height="800" fill="url(#vg1b4wbgr)"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="64" y="668" font-size="128" opacity="0.20" font-weight="700">AF</text>
+    <text x="64" y="726" font-size="27" font-weight="600" opacity="0.92">Armed Forces Medical College</text>
+    <text x="64" y="758" font-size="21" opacity="0.72">Pune</text>
+  </g>
+</svg>

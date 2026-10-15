@@ -129,7 +129,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost | null> {
 }
 
 export async function getColleges(
-  filters: { stream?: string; state?: string; exam?: string; search?: string; featured?: boolean } = {},
+  filters: { stream?: string; state?: string; exam?: string; search?: string; featured?: boolean; limit?: number } = {},
 ): Promise<{ colleges: College[]; facets: CollegeFacets }> {
   const query = new URLSearchParams();
   for (const [key, value] of Object.entries(filters)) {

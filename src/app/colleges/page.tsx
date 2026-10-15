@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, GraduationCap, MapPin, Search, TrendingUp } from "lucide-react";
+import { ArrowRight, GraduationCap, MapPin, School, Search, TrendingUp } from "lucide-react";
 import { getColleges, type College } from "@/lib/api";
 import { Badge, Container, Section, SectionHeading } from "@/components/ui/primitives";
 import { Button } from "@/components/ui/button";
 import { Input, Select } from "@/components/ui/form";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Colleges we help you get into",
@@ -47,6 +48,38 @@ export default async function CollegesPage({ searchParams }: { searchParams: Sea
 
       <Section className="!pt-0">
         <Container>
+          {/* School / stream-wise quick filters */}
+          <div className="mb-4 flex flex-wrap items-center gap-2">
+            <span className="mr-1 inline-flex items-center gap-1.5 text-sm font-medium text-fg-muted">
+              <School className="size-4" aria-hidden /> School:
+            </span>
+            <Link
+              href={buildHref({ stream: undefined })}
+              className={cn(
+                "rounded-pill border px-4 py-1.5 text-sm transition-colors",
+                !stream
+                  ? "border-gold-500 bg-gold-500 text-ink-950"
+                  : "border-line-strong bg-bg-subtle text-fg-muted hover:border-gold-500/50 hover:text-fg",
+              )}
+            >
+              All schools
+            </Link>
+            {facets.streams.map((value) => (
+              <Link
+                key={value}
+                href={buildHref({ stream: value })}
+                className={cn(
+                  "rounded-pill border px-4 py-1.5 text-sm transition-colors",
+                  stream === value
+                    ? "border-gold-500 bg-gold-500 text-ink-950"
+                    : "border-line-strong bg-bg-subtle text-fg-muted hover:border-gold-500/50 hover:text-fg",
+                )}
+              >
+                {value}
+              </Link>
+            ))}
+          </div>
+
           <form method="get" className="grid gap-3 rounded-xl border border-line bg-bg-subtle p-4 sm:grid-cols-[1.4fr_1fr_1fr_auto]">
             <div className="relative">
               <Search className="pointer-events-none absolute top-1/2 left-3 size-4 -translate-y-1/2 text-fg-muted" aria-hidden />
