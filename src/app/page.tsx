@@ -27,9 +27,11 @@ export default async function HomePage() {
     getColleges({ limit: 40 }),
   ]);
 
-  // Prefer featured colleges for the hero banner, then fill from the rest.
-  const featured = colleges.filter((c) => c.featured);
-  const bannerColleges = [...featured, ...colleges.filter((c) => !c.featured)].slice(0, 3);
+  // Banner slider: featured first, then colleges that have a real campus photo,
+  // then the rest — so the hero leads with the strongest visuals.
+  const rank = (c: (typeof colleges)[number]) =>
+    (c.featured ? 0 : 2) + (c.image?.endsWith(".jpg") ? 0 : 1);
+  const bannerColleges = [...colleges].sort((a, b) => rank(a) - rank(b)).slice(0, 3);
 
   return (
     <>
